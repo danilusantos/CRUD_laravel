@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+section{
+    min-height: 50vh;
+}
+
+.title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.page-link{
+    color:#6d2db0;
+}
+
+.page-link:active,
+.page-link:hover,
+.page-link:focus
+{
+    color:#6d2db0;
+}
+
+.active>.page-link,
+.page-link.active
+{
+    background: #6d2db0;
+    border-color: #6d2db0;
+}
+
+.title::after{
+    content: '';
+    display: block;
+    width: 120px;
+    height: 3px;
+    background: #6d2db0;
+    margin: 5px auto;
+}
